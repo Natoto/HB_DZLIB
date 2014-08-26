@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HB_DZLIB"
   s.version      = "0.0.1"
-  s.summary      = "A short description of HB_DZLIB."
+  s.summary      = ""
 
   s.description  = <<-DESC
                    A longer description of HB_DZLIB in Markdown format.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/Natoto/HB_DZLIB.git"
+  s.homepage     = "https://github.com/Natoto/HB_DZLIB"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
   
-  s.author             = { "Natoto" => "787038442@qq.com" }
+  s.author             = { "Natoto" => "email@address.com" }
   # Or just: s.author    = "Natoto"
-  # s.authors            = { "Natoto" => "787038442@qq.com" }
+  # s.authors            = { "Natoto" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/Natoto"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,10 +65,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+    s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+    s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Natoto/HB_DZLIB.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Natoto/HB_DZLIB.git", :commit => "9c8065dab46c503be3dc32b2c2455abcbfe9c83c" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HB_DZLIB/ARC", "HB_DZLIB/ARC/**/*.{h,m}", "HB_DZLIB/MRC","HB_DZLIB/MRC/**/*.{h,m}"
-  # s.exclude_files = "/Exclude"
+  s.source_files  = "HB_DZLIB/", "HB_DZLIB/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "HB_DZLIB/**/*.h"
+  # s.public_header_files = "HB_DZLIB/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "HB_DZLIB/ARC/**/*.png","HB_DZLIB/MRC/**/*.png"
+   s.resources = "HB_DZLIB/**/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -116,9 +116,8 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-    s.frameworks = "CoreText","CoreGraphices","AssetsLibrary","CoreImage","Foundation","UIKit","XCTest"
-	
+   s.frameworks = "CoreText", "CoreGraphics","AssetsLibrary","CoreImage","Foundation","UIKit"
+
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -129,7 +128,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  #s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
