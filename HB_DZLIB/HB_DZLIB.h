@@ -20,5 +20,5 @@
 #import "RTLabel.h"
 
 @interface HB_DZLIB : NSObject
-
+@property(nonatomic,strong)NSString *versions;
 @end
