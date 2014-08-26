@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>:(</key>
+	<string>sad</string>
+	<key>:lol</key>
+	<string>lol</string>
+	<key>:D</key>
+	<string>biggrin</string>
+	<key>:dizzy:</key>
+	<string>dizzy</string>
+	<key>:&apos;(</key>
+	<string>cry</string>
+	<key>:shutup:</key>
+	<string>shutup</string>
+	<key>:Q</key>
+	<string>mad</string>
+	<key>:@</key>
+	<string>huffy</string>
+	<key>:loveliness:</key>
+	<string>loveliness</string>
+	<key>:L</key>
+	<string>sweat</string>
+	<key>:)</key>
+	<string>smile</string>
+	<key>:o</key>
+	<string>shocked</string>
+	<key>:$</key>
+	<string>shy</string>
+	<key>:funk:</key>
+	<string>funk</string>
+	<key>:curse:</key>
+	<string>curse</string>
+	<key>:sleepy:</key>
+	<string>sleepy</string>
+	<key>:hug:</key>
+	<string>hug</string>
+	<key>:victory:</key>
+	<string>victory</string>
+	<key>:kiss:</key>
+	<string>kiss</string>
+	<key>:handshake</key>
+	<string>handshake</string>
+	<key>:time:</key>
+	<string>time</string>
+	<key>:P</key>
+	<string>tongue</string>
+	<key>;P</key>
+	<string>titter</string>
+	<key>:call:</key>
+	<string>call</string>
+</dict>
+</plist>
