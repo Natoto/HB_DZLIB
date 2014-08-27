@@ -1,0 +1,14 @@
+PODS:
+  - HB_DZLIB (0.0.1)
+
+DEPENDENCIES:
+  - HB_DZLIB (from `https://github.com/Natoto/HB_DZLIB.git`)
+
+EXTERNAL SOURCES:
+  HB_DZLIB:
+    :git: https://github.com/Natoto/HB_DZLIB.git
+
+SPEC CHECKSUMS:
+  HB_DZLIB: e536c91cfe94b350061cb286efa2026541b2d50f
+
+COCOAPODS: 0.33.1
