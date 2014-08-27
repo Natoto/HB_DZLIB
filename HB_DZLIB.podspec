@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HB_DZLIB"
   s.version      = "0.0.1"
-  s.summary      = ""
+  s.summary      = "HB_DZLIB IS ROCKMOBILE LIB"
 
   s.description  = <<-DESC
                    A longer description of HB_DZLIB in Markdown format.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
   
-  s.author             = { "Natoto" => "email@address.com" }
+  s.author             = { "Natoto" => "787038442@qq.com" }
   # Or just: s.author    = "Natoto"
   # s.authors            = { "Natoto" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/Natoto"
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
 
   #s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
