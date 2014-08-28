@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
    s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }  
 
   s.subspec 'ARC' do |cs|
-    cs.source_files = "HB_DZLIB/ARC/", "HB_DZLIB/ARC/**/*.{h,m}"
+    cs.source_files = "HB_DZLIB/ARC/", "HB_DZLIB/ARC/**/*.{h,m,c}"
     cs.public_header_files = "HB_DZLIB/ARC/", "HB_DZLIB/ARC/**/*.h"
     cs.resources = "HB_DZLIB/ARC/**/*.png"  
     cs.requires_arc = true
