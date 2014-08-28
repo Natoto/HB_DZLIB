@@ -1,2 +1,0 @@
-platform :ios, '7.0'
-pod 'HB_DZLIB', :git => 'https://github.com/Natoto/HB_DZLIB.git'

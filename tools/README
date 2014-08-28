@@ -1,3 +1,0 @@
-XPROJ 的功能是对于一个文件夹内部.m文件 在工程中加入 -fno no arc
-sh xproj -s ./DZ/framework/ -t DZ.xcodeproj  
-
