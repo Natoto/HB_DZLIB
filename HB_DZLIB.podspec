@@ -26,13 +26,23 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = "10.7"
 
   s.source       = { :git => "https://github.com/Natoto/HB_DZLIB.git", :commit => "9c8065dab46c503be3dc32b2c2455abcbfe9c83c" }
-
-
-  s.source_files  = "HB_DZLIB/", "HB_DZLIB/**/*.{h,m}"
-
-   s.resources = "HB_DZLIB/**/*.png"
    s.frameworks = "CoreText", "CoreGraphics","AssetsLibrary","CoreImage","Foundation","UIKit"
 
-  s.requires_arc = true
-   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+   s.requires_arc = true
+   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }  
+
+  s.subspec 'HB_DZLIB/ARC' do |cs|
+    cs.source_files = "HB_DZLIB/ARC/", "HB_DZLIB/ARC/**/*.{h,m}"
+    cs.public_header_files = "HB_DZLIB/ARC/", "HB_DZLIB/ARC/**/*.h"
+    cs.resources = "HB_DZLIB/ARC/**/*.png"  
+    cs.requires_arc = true
+  end
+   
+  s.subspec 'HB_DZLIB/MRC' do |cs|
+    cs.source_files = "HB_DZLIB/MRC/", "HB_DZLIB/MRC/**/*.{h,m}"
+    cs.public_header_files = "HB_DZLIB/MRC/", "HB_DZLIB/MRC/**/*.h"
+    cs.resources = "HB_DZLIB/MRC/**/*.png"
+    cs.requires_arc = false
+  end
+	
 end

@@ -13,6 +13,9 @@ static const CGFloat kHeightOfTopScrollView = 50;
 static const CGFloat kWidthOfButtonMargin = 7.0f;
 static const CGFloat kFontSizeOfTabButton = 17.0f;
 static const NSUInteger kTagOfRightSideButton = 999;
+#define LINE_LAYERBOARD_NOTCGCOLOR [UIColor colorWithWhite:0.8 alpha:1.0f]
+#define LINE_LAYERBOARDCOLOR [UIColor colorWithWhite:0.8 alpha:1.0f].CGColor
+#define LINE_LAYERBOARDWIDTH 0.5f
 
 @protocol QCSlideSwitchViewDelegate;
 @interface QCSlideSwitchView : UIView<UIScrollViewDelegate>
